@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa70debdbfe3f7f3ab7f1302e51ee672, type: 3}
+  m_Name: A1.Quest-Start
+  m_EditorClassIdentifier: 
+  storyText: 'Quarters are scarce in the Pandemic, and your laundry sits in piles
+    waiting to be clean. You begin your search for pocket change, and need to decide
+    to start rummaging through your laundry or to check in the couch cushins.
+
+
+    Where
+    do you start?
+
+    1: Start rifling through my dirty clothes.
+
+    2: Dive into
+    your couch cushions.'
+  nextStates:
+  - {fileID: 11400000, guid: db6b6ec09fba7413291efa05d7347b5e, type: 2}
+  - {fileID: 11400000, guid: 76e7cf9aee6f467a4a8a873e40e5e28a, type: 2}

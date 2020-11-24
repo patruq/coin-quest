@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa70debdbfe3f7f3ab7f1302e51ee672, type: 3}
+  m_Name: A0.Introduction
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to Coin Quest. In this game, you will select your own path
+    towards finding the coins needed for doing your laundry. Use the the NUMBER KEYS
+    on the keyboard to select the story option you wish to follow. At any point in
+    time, press Q on the keyboard to quit the game.
+
+    Who knows what friends,
+    or enemies, lurk behind every turn!
+
+
+    Push 1 to continue...'
+  nextStates:
+  - {fileID: 11400000, guid: e5dd0751082d268cfb1c515d2b9319d3, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa70debdbfe3f7f3ab7f1302e51ee672, type: 3}
+  m_Name: C2.End-2
+  m_EditorClassIdentifier: 
+  storyText: "You begin to back out from under the couch. But wait! your shirt is
+    caught on something! You wiggle and squirm as the Centipede approaches menacingly.
+    \nThe light slowly fades to gray.....\n\nYOU LOSE DUMBASS. GAME OVER.\nWould
+    you like to play again?\n1. Yes\n2. No, time to do my laundry.\n"
+  nextStates:
+  - {fileID: 11400000, guid: e5dd0751082d268cfb1c515d2b9319d3, type: 2}
+  - {fileID: 11400000, guid: 6184cd8b3a9b526f89370370eb56ebb9, type: 2}

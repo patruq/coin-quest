@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa70debdbfe3f7f3ab7f1302e51ee672, type: 3}
+  m_Name: B2
+  m_EditorClassIdentifier: 
+  storyText: "Sweat pours down your face, fear courses through your blood. The Centipede
+    bears down on your position, and you but a second to react.\n \nWhat's your move?\n1:
+    Fuck this noise, I'm the fuck outta here (Get out and run).\n2: I will not live
+    in fear. Time to fight back!"
+  nextStates:
+  - {fileID: 11400000, guid: 40f5e38a6d54a3fb983c3025dc4381a5, type: 2}
+  - {fileID: 11400000, guid: e11405883866bc51485c0827c02659a4, type: 2}

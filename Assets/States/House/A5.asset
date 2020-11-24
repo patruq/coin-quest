@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa70debdbfe3f7f3ab7f1302e51ee672, type: 3}
+  m_Name: A5
+  m_EditorClassIdentifier: 
+  storyText: "I pour a large, cold glass of water. Randa, your partner sits at the
+    table, staring at her computer screen. She may have the money, but she may also
+    be on a work call.....\n\nDo you- \n1: You slide her a note asking if she has
+    quarters. (Hope she won't be upset) \n2: I'll play it safe, I'm gunna go check
+    the couch in the living room for quarters."
+  nextStates:
+  - {fileID: 11400000, guid: 47fde31657d1fe1f6bdb8202e4c5f55e, type: 2}
+  - {fileID: 11400000, guid: 1b32485352018b17b8984dcd32526b10, type: 2}

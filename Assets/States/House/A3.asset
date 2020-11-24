@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa70debdbfe3f7f3ab7f1302e51ee672, type: 3}
+  m_Name: A3
+  m_EditorClassIdentifier: 
+  storyText: 'Man, these couches are comfy but they are pretty dirty.....no sign
+    of any quarters. Maybe I should lift up the front and take a look underneath?
+
+
+    1:
+    Lift up the front, and dive under to see what I can find.
+
+    2: Maybe head
+    I''ll head to the bathroom, you never know where change could be.....'
+  nextStates:
+  - {fileID: 11400000, guid: 1b32485352018b17b8984dcd32526b10, type: 2}
+  - {fileID: 11400000, guid: dee1695312b32a540822c85ed3dcacf6, type: 2}

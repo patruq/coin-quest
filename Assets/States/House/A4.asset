@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa70debdbfe3f7f3ab7f1302e51ee672, type: 3}
+  m_Name: A4
+  m_EditorClassIdentifier: 
+  storyText: 'You head to the toilet- But wait! what was that? Was that a tiny glimmer
+    of light reflecting from behind the toilet?
+
+
+    I wonder if I should take a
+    look?
+
+
+    1: Helllllll no bro, gross. Let me finish up and I''ll get some coffee
+    from the kitchen.
+
+    2: Why not? I really need to find some laundry money.....'
+  nextStates:
+  - {fileID: 11400000, guid: 418232d4665a53bf9a2e814d0707b85c, type: 2}
+  - {fileID: 11400000, guid: 1b32485352018b17b8984dcd32526b10, type: 2}
